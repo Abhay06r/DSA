@@ -7,7 +7,7 @@ for i in range(len(arr)-1):
     # traverse in arr
     for j in range(len(arr)-i-1):
         
-        # comparing 1st and next element 
+        # comparing 1st to next element 
         if arr[j] > arr[j+1]:
             
             # swap
